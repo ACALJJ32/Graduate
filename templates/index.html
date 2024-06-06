@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+   <html>
+   <head>
+       <title>Happy Graduation! Yuxing!</title>
+       <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+       <audio id="background-music" loop autoplay>
+            <source src="{{ url_for('static', filename='audio/music.mp3') }}" type="audio/mpeg">
+        </audio>
+   </head>
+   <body>
+        <section id="three-container"></section>
+        <!-- <div class="slide">Click me to change the background!</div> -->
+
+        <script type="text/javascript" src="{{ url_for('static', filename='js/flower.js') }}"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/photo.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/music.js') }}"></script>
+   </body>
+   </html>
